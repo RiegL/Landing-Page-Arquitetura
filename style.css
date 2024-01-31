@@ -1,126 +1,125 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-  }
-  
-  /* Seccion Header */
-  
-  header {
-    background-color: #303030;
-    height: 475px;
-    color: #ffffff;
-    font-family: "Inter", sans-serif;
-    display: flex;
-    align-items: center;
-    padding-left: 65px;
-  }
-  
-  #headerTitle {
-    font-size: 60px;
-  }
-  
-  #headerDescription {
-    font-size: 18px;
-  }
-  
-  /* Seccion Information */
-  
-  #information {
-    background-color: #f9f9f9f9;
-    font-family: "Inter", sans-serif;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 229px;
-  }
-  
-  #numberInformation {
-    font-weight: bolder;
-  }
-  
-  /* Seccion Content */
-  
-  #content {
-    font-family: "Inter", sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  #content > div {
-    flex: 1;
-  }
-  
-  #contentTitle {
-    font-size: 28px;
-    padding-left: 100px;
-  }
-  
-  #content img {
-    max-width: 100%;
-    height: auto;
-    margin: 70px 0 70px 200px;
-  }
-  
-  #contentDescription {
-    text-align: justify;
-    padding-left: 100px;
-  }
-  
-  /* Seccion Forms */
-  
-  #forms {
-    font-family: "Inter", sans-serif;
-    background-color: #303030;
-    height: 490px;
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
-  
-  #formsTitle {
-    font-size: 28px;
-    font-weight: 600;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    
-  }
-  
-  input {
-    width: 350px;
-    height: 55px;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 30px;
-    padding-left: 15px;
-    border-radius:10px;
-    margin-bottom: 20px;
-    border: none;
-    outline: none;
-  }
-  
-  button{
-      font-family: "Raleway", sans-serif;
-      background-color: #C07212;
-      color: white;
-      width: 250px;
-      height: 55px;
-      margin-top: 30px;
-      border-radius: 10px;
-      font-size: 22px;
-      font-weight: 700; 
-      cursor: pointer;
-      transform: translateY(-7px);
-  
-  }
-  
-  button:hover{
-      transform: translateY(-10px);
-      background-color: #da8a28;
-      transition: 0.5ms;
-  }
-  
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Seccion Header */
+
+header {
+  background-color: #303030;
+  height: 475px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  padding-left: 65px;
+}
+
+#headerTitle {
+  font-size: 60px;
+}
+
+#headerDescription {
+  font-size: 18px;
+}
+
+/* Seccion Information */
+
+#information {
+  background-color: #f9f9f9f9;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 229px;
+}
+
+#numberInformation {
+  font-weight: bolder;
+}
+
+/* Seccion Content */
+
+#content {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#content > div {
+  flex: 1;
+}
+
+#contentTitle {
+  font-size: 28px;
+  padding-left: 100px;
+}
+
+#content img {
+  max-width: 100%;
+  height: auto;
+  margin: 70px 0 70px 200px;
+}
+
+#contentDescription {
+  text-align: justify;
+  padding-left: 100px;
+}
+
+/* Seccion Forms */
+
+#forms {
+  font-family: "Inter", sans-serif;
+  background-color: #303030;
+  height: 490px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#formsTitle {
+  font-size: 28px;
+  font-weight: 600;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+input {
+  width: 350px;
+  height: 55px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  padding-left: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+}
+
+button {
+  font-family: "Raleway", sans-serif;
+  background-color: #c07212;
+  color: white;
+  width: 250px;
+  height: 55px;
+  margin-top: 30px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  transform: translateY(-7px);
+}
+
+button:hover {
+  background-color: #ff8c00;
+  color: white;
+  transform: translateY(-7px);
+  box-shadow: 0px 15px 20px #05103081;
+  transition-duration: 0.5s;
+}
