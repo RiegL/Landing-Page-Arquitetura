@@ -1,7 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 0px;
+  font-family: "inter";
 }
 
 /* Seccion Header */
@@ -10,7 +9,6 @@ header {
   background-color: #303030;
   height: 475px;
   color: #ffffff;
-  font-family: "Inter", sans-serif;
   display: flex;
   align-items: center;
   padding-left: 65px;
@@ -27,99 +25,86 @@ header {
 /* Seccion Information */
 
 #information {
-  background-color: #f9f9f9f9;
-  font-family: "Inter", sans-serif;
-  display: flex;
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  padding: 50px;
   justify-content: space-around;
-  align-items: center;
-  height: 229px;
 }
 
 #numberInformation {
-  font-weight: bolder;
+  background-color: #303030;
+  color: aliceblue;
 }
 
 /* Seccion Content */
 
 #content {
-  font-family: "Inter", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#content > div {
-  flex: 1;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+  justify-content: space-around;
 }
 
 #contentTitle {
-  font-size: 28px;
-  padding-left: 100px;
+  color: #000000;
+  margin-top: 120px;
+  margin-left: 150px;
 }
 
-#content img {
-  max-width: 100%;
-  height: auto;
-  margin: 70px 0 70px 200px;
+img {
+  width: 300px;
+  margin: 50px 0px 50px 0px;
 }
 
 #contentDescription {
   text-align: justify;
-  padding-left: 100px;
+  padding-left: 160px;
+  max-width: 500px;
 }
 
 /* Seccion Forms */
 
 #forms {
-  font-family: "Inter", sans-serif;
+  text-align: center;
   background-color: #303030;
-  height: 490px;
-  color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
 }
 
 #formsTitle {
-  font-size: 28px;
-  font-weight: 600;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  font-size: 20px;
+  margin: 25px;
+  padding-top: 50px;
+  color: #ffffff;
 }
 
 input {
-  width: 350px;
-  height: 55px;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 30px;
-  padding-left: 15px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  border: none;
+  width: 300px;
+  height: 40px;
+  background-color: #eaece5;
+  margin: 15px;
+  border: 0px;
+  border-radius: 5px;
+  padding-left: 10px;
   outline: none;
 }
 
 button {
-  font-family: "Raleway", sans-serif;
   background-color: #c07212;
-  color: white;
+  height: 40px;
   width: 250px;
-  height: 55px;
-  margin-top: 30px;
-  border-radius: 10px;
-  font-size: 22px;
-  font-weight: 700;
+  color: #eaece5;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  font-weight: bolder;
   cursor: pointer;
-  transform: translateY(-7px);
 }
 
 button:hover {
   background-color: #ff8c00;
   color: white;
-  transform: translateY(-7px);
+  transform: translateY(-5px);
   box-shadow: 0px 15px 20px #05103081;
   transition-duration: 0.5s;
 }
